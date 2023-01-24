@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <!-- Bootstrap CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Portfolio</title>
+</head>
+
+<body style="background-color: #342424">
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <!-- START -->
+
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark " style="background-color: #342424;">
+    <div class="container-lg">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-center p-2 " id="main-nav">
+        <ul class="navbar-nav font-monospace fw-bolder">
+          <li class="nav-item">
+            <a class="nav-link text-white ps-5" href="#about">About Me</a>
+          </li>
+          <li class="nav-item ps-5">
+            <a class="nav-link text-white" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item ps-5">
+            <a class="nav-link text-white" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item ps-5">
+            <a class="nav-link text-white" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item ps-5">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Greeting & Introduction-->
+  <section id="about">
+    <div class="container-fluid">
+      <div class="row text-center pt-4 align-items-center " style=background-color:#8d6851>
+
+   
+        <!-- Photo -->
+        <img class="p-5 mt-5" src="/Me.png" alt="photo" style="width: 470px;" id="pic">
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col-8 p-5 g-5 me-5 rounded border text-dark " style=background-color:#F8D1AE>
+          With a passion to make a difference with my work, I pride myself in having an 
+          enthusiastic attitude, adaptability, and open communication. I thrive 
+          in team-oriented environments while being comfortable working independently. 
+          Interested in technical roles in Front-End Development, Digital Media, 
+          and Product Management. I code in order to make an impact.
+        </div>
+        <div class="col p-5 g-5 rounded border text-dark" style=background-color:#C29164>
+         <strong>"If you do nothing, nothing will happen." </strong> <br> <br> 
+          I look to this quote as inspiration whenever I tackle a difficult project.
+           Seeing others influence CS platform from taps on a keyboard and the 
+           tips of their fingers drives me to become a self-assured role model 
+           for minorities in tech.
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container-fluid">
+      <div class="row text-center p-4 align-items-center rounded border text-dark" style=background-color:#8d6851>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Projects-->
+  <section id="projects">
+    <div class="container-fluid">
+      <div class="row text-center p-3 my-5 align-items-center rounded border text-dark" style=background-color:#F8D1AE>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row p-4 my-5 " style=background-color:#8d6851>
+      </div>
+    </div>
+  </section>
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container-fluid">
+      <div class="row p-5 my-5 rounded border text-dark" style=background-color:#F8D1AE>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row p-5 rounded border" style=background-color:#8d6851>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container-fluid">
+      <div class="row mb-5 ">
+        <div class="col-4 p-5 g-5 me-5 rounded border text-dark" style=background-color:#C29164>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        </div>
+        <div class="col p-5 g-5 rounded border text-dark" style=background-color:#F8D1AE>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          conseuat. Duis aute irure dolor in reprehenderitin voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row p-5 mb-5 rounded border" style=background-color:#8d6851>
+      </div>
+    </div>
+  </section>
+
+
+
+<div id="container">
+	<div id="text"></div><div id="cursor"></div>
+</div>
+
+
+
+
+
+
+  <!-- Bootstrap Bundle-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

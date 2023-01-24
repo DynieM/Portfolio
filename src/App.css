@@ -1,0 +1,62 @@
+/** @format */
+
+.Webpage {
+	background-color: #8d6851;
+	min-height: 1000vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+img {
+	width: 150px;
+}
+
+
+* {
+	color: #fff;
+	text-decoration: none;
+}
+
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: rgb(255, 255, 255);
+	letter-spacing: 2px;
+	font-family: monospace;
+	font-size: 70px;
+	position: relative;
+	top: -2320px;
+	left: -280px;
+	
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	position: relative;
+	top: -2320px;
+	left: -280px;
+	background-color: rgba(255, 255, 255, 0.849);
+	font-family: monospace;
+	animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+	from,
+	to {
+		background-color: transparent;
+	}
+
+	50% {
+		background-color: rgb(241, 240, 238);
+	}
+}
